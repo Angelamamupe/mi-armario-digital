@@ -104,7 +104,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/etPrize"
+        android:id="@+id/etPrice"
         android:layout_alignBottom="@+id/textView19"
         android:layout_toEndOf="@+id/textView19"
         android:layout_marginLeft="36dp"/>
