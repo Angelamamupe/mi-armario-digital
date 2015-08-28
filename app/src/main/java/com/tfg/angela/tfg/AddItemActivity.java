@@ -11,6 +11,9 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
+import com.larswerkman.holocolorpicker.ColorPicker;
+import com.larswerkman.holocolorpicker.SVBar;
+
 
 public class AddItemActivity extends AppCompatActivity {
 
@@ -100,6 +103,12 @@ public class AddItemActivity extends AppCompatActivity {
                 // TODO rellenar
             }
         });
+
+        // Color picker
+        ColorPicker picker = (ColorPicker) findViewById(R.id.paleta);
+        picker.setShowOldCenterColor(false);
+        SVBar svBar = (SVBar) findViewById(R.id.paletaBarra);
+        picker.addSVBar(svBar);
     }
 
 }

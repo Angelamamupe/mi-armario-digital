@@ -121,12 +121,28 @@
             android:layout_alignParentStart="true"
             android:layout_marginTop="24dp"/>
 
+        <com.larswerkman.holocolorpicker.ColorPicker
+            android:id="@+id/paleta"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etDescrip"
+            android:layout_toEndOf="@+id/textView7"
+            android:layout_marginLeft="36dp"/>
+
+        <com.larswerkman.holocolorpicker.SVBar
+            android:id="@+id/paletaBarra"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/paleta"
+            android:layout_alignStart="@id/paleta"
+            />
+
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Primavera"
             android:id="@+id/checkBox"
-            android:layout_below="@+id/textView7"
+            android:layout_below="@+id/paletaBarra"
             android:layout_alignParentStart="true"
             android:checked="false"
             android:layout_marginTop="24dp"/>
@@ -182,15 +198,26 @@
             android:id="@+id/textView9"
             android:layout_below="@+id/textView8"
             android:layout_marginTop="24dp" />
+
         <EditText
             android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:inputType="number"
+            android:inputType="numberDecimal"
             android:ems="10"
-            android:id="@+id/etPrize"
+            android:id="@+id/etPrice"
             android:layout_alignBottom="@+id/textView9"
             android:layout_toEndOf="@+id/textView9"
             android:layout_marginLeft="36dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="€"
+            android:id="@+id/tvEuro"
+            android:layout_alignBottom="@+id/textView9"
+            android:layout_toEndOf="@+id/etPrice"
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -233,13 +260,23 @@
             android:layout_alignParentStart="true"
             android:layout_marginTop="24dp" />
 
-        <Button
+        <RatingBar
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView12"
+            />
+
+        <Button
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Guardar"
             android:id="@+id/button"
-            android:layout_below="@+id/spWashing"
-            android:layout_alignEnd="@+id/spWashing" />
+            android:layout_below="@id/ratingBar"
+            android:layout_marginTop="24dp"
+            />
+
     </RelativeLayout>
 </ScrollView>
 
