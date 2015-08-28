@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="item_cloth_styles">
+        <item>Casual</item>
+        <item>Trabajo</item>
+        <item>Noche</item>
+        <item>Deporte</item>
+        <item>Baño</item>
+        <item>Fiesta</item>
+    </string-array>
+</resources>

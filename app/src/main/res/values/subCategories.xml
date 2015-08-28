@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="item_subCategories">
+        <item>Vestido</item>
+        <item>Camiseta</item>
+        <item>Falda</item>
+        <item>Pantalón</item>
+        <item>Camisa</item>
+        <item>Blusa</item>
+        <item>Abrigo</item>
+        <item>Americana</item>
+    </string-array>
+</resources>

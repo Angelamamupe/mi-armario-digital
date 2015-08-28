@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="item_washing">
+        <item>Frío</item>
+        <item>Caliente</item>
+        <item>No lavable</item>
+        <item>Delicado</item>
+        <item>Lana</item>
+        <item>Seda</item>
+        <item>Algodón</item>
+    </string-array>
+</resources>

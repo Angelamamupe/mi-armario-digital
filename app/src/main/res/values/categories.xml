@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="item_categories">
+        <item>Ropa</item>
+        <item>Complementos</item>
+        <item>Zapatos</item>
+        <item>Joyas</item>
+    </string-array>
+</resources>
