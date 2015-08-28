@@ -16,19 +16,20 @@
         <activity
             android:name=".AddItemActivity"
             android:label="@string/title_activity_add_item" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Closet"
             android:label="@string/title_activity_closet" >
         </activity>
         <activity
-            android:name=".search_clothes"
+            android:name=".SearchClothesActivity"
             android:label="@string/title_activity_search_clothes" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".init"
