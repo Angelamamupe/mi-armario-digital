@@ -121,12 +121,28 @@
             android:layout_alignParentStart="true"
             android:layout_marginTop="24dp"/>
 
+        <com.larswerkman.holocolorpicker.ColorPicker
+            android:id="@+id/paleta"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etDescrip"
+            android:layout_toEndOf="@+id/textView7"
+            android:layout_marginLeft="36dp"/>
+
+        <com.larswerkman.holocolorpicker.SVBar
+            android:id="@+id/paletaBarra"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/paleta"
+            android:layout_alignStart="@id/paleta"
+            />
+
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Primavera"
             android:id="@+id/checkBox"
-            android:layout_below="@+id/textView7"
+            android:layout_below="@+id/paletaBarra"
             android:layout_alignParentStart="true"
             android:checked="false"
             android:layout_marginTop="24dp"/>
